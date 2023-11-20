@@ -1,14 +1,10 @@
 # Projeto Gaming News
 
 
-## Criador do Código Inicial
+## Criador do Código Front End
 
 * André Almeida Silva
 
-
-## Responsáveis
-
-* Wendel Pereira Guedes
 
 ## Instruções de utilização
 

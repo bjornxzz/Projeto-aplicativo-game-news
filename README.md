@@ -1,19 +1,15 @@
-# [Nome do projeto]
+# Projeto Gaming News
 
-[Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.]
 
-## Alunos integrantes da equipe
+## Criador do Código Inicial
 
-* [Nome completo do aluno 1]
-* [Nome completo do aluno 2]
-* [Nome completo do aluno 3]
-* [Nome completo do aluno 4]
+*André Almeida Silva
 
-## Professores responsáveis
 
-* [Nome completo do professor 1]
-* [Nome completo do professor 2]
+## Responsáveis
+
+* Wendel Pereira Guedes
 
 ## Instruções de utilização
 
-[Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.]
+Comece Pela aba menu, após isso clique em registrar parar registrar um usuário.

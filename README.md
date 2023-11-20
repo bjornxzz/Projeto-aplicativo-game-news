@@ -3,7 +3,7 @@
 
 ## Criador do Código Inicial
 
-*André Almeida Silva
+* André Almeida Silva
 
 
 ## Responsáveis

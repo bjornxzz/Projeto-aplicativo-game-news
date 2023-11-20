@@ -1,0 +1,373 @@
+/* Estrutura do corpo */
+.body {
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: black;
+}
+/* Cabecalho */
+.header {
+    padding: 10px;
+    background-color: lightgrey;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 1fr;
+}
+.logo {
+    margin-left: 40px;
+    grid-column: 1;
+    grid-row: 1/3;
+    width: 120px;
+    height: 120px;
+}
+.nav-bar ul li {
+    margin: 15px;
+    display: inline;
+}
+.cabecalho-de-cima {
+    justify-content: space-between;
+    grid-column: 2;
+    grid-row: 1/2;
+    display: flex;
+}
+.cabecalho-de-baixo {
+    justify-content: space-between;
+    grid-column: 2;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: row;
+}
+.search-input {
+    border: 0;
+    border-radius: 10px 0px 0px 10px;
+    height: 30px;
+    width: 400px;
+}
+.search-buton {
+    border-radius: 0px 10px 10px 0px;
+    height: 30px;
+    width: 60px;
+}
+.cart {
+    height: 60px;
+    width: 60px;
+}
+.cart svg{
+    height: 40px;
+    width: 40px;
+}
+.label-menu {
+    display: none;
+}
+.checkbox {
+    display: none;
+}
+/* Formulario */
+.form-item {
+    width: 300px;
+    height: 350px;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.price {
+    border-radius: 10px;
+    border:  1px solid lightgray;
+    margin: 10px 32px 20px 0px;
+    height: 25px;
+    width: 75px;
+}
+select {
+    border-radius: 10px;
+    border:  1px solid lightgray;
+    margin: 10px 0px;
+    background-color: white;
+    height: 25px;
+    width: 200px;
+}
+.search {
+    border: none;
+    background-color: #eba30a;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all linear 160ms;
+.search:hover{
+    background-color: #ac7807;
+    transform: scale(1.05)
+}
+}
+/* Conteudo_principal_cima */
+.main-cima {
+    flex-wrap: wrap;
+    max-width: 1400px;
+    justify-content: space-between;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+/* Carrousel */
+.img{
+    width: 900px;
+    height: 400px;
+}
+/* Conteudo_principal_meio*/
+.main-meio {
+    max-width: 1420px;
+    display: flex;
+    flex-direction: row;
+}
+.main {
+    margin: 10px;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    border-radius: 10px;
+    width: 300px;
+    margin: 15px 15px 15px 15px;
+    padding: 10px;
+}
+.card img{
+    height: 300px;
+}
+/* aside */
+.aside {
+    margin: 20px 10px 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+aside img{
+    width: 130px;
+    height: 150px;
+}
+.Reviwed {
+    padding: 10px;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.form {
+    padding: 10px;
+    margin-top: 50px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.aside > h3 {
+    text-align: center;
+}
+.itens-card {
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid lightgray;
+}
+.form input{
+    border-radius: 10px;
+}
+.aside button {
+    margin: 5px;
+    width: 120px;
+}
+/*conteudo_principal*/
+.conteudo {
+    position: relative;
+    margin: 0% 10% 0% 10%;
+}
+.payment-methods img {
+    width: 60%;
+}
+.lets-be-social img {
+    width: 300px;
+}
+/*Footer*/
+.footer{
+    background-color: lightgray;
+    padding: 10px;
+}
+.footer .rodape{
+    text-align: center;
+}
+.main-baixo {
+    display: flex;
+    justify-content: space-between;
+}
+.main-baixo ul li {
+    text-decoration: none;
+    list-style: none;
+}
+button{
+    border: none;
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 10px;
+}
+@media (max-width: 1663px) {
+    .conteudo {
+        margin: 0% 5% 0% 5%;
+    }
+}
+@media (max-width: 1482px) {
+    .conteudo {
+        margin: 0%;
+    }
+}
+@media (max-width: 1349px) {
+    .card{
+        width: 250px;
+    }
+    .itens-card{
+        width: 250px;
+    }
+}
+@media (max-width: 1265px) {
+    .d-block  {
+        width: 700px
+    }
+}
+@media (max-width: 1195px) {
+    .card{
+        width: 200px;
+    }
+}
+@media (max-width: 1065px) {
+    .d-block  {
+        width: 600px
+    }
+}
+@media (max-width: 993px) {
+    .card img{
+        height:150px ;
+    }
+    .card{
+        width: 150px;
+    }
+    .itens-card img{
+        height: 100px; ;
+        width: 80px;
+    }
+    .information{
+        display: none;
+    }
+}
+@media (max-width: 939px) {
+    .img{
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 85vw;
+    }
+    .form-item{
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 85vw;
+        margin-bottom: 5px;
+    }
+    .form-item select{
+        width: 60vw;
+    }
+    .contact-us{
+        display: none;
+    }
+}
+@media (max-width: 841px) {
+    .aside{
+        display: none;
+    }
+    .card img{
+        height:200px ;
+    }
+    .card{
+        width: 200px;
+    }
+}
+@media (max-width: 730px) {
+    .card img{
+        height:150px ;
+    }
+    .card{
+        width: 150px;
+    }
+    .welcome{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+    .header{
+        text-align: center;
+    }
+    .search-input{
+        width: 300px;
+    }
+}
+@media (max-width: 626px) {
+    .cart{
+        display: none;
+    }
+    .header {
+        display: flex;
+    }
+    .nav-bar ul li {
+        margin-top: 100px;
+        display: block;
+    }
+    .cabecalho-de-cima ul {
+        position: absolute;
+        left: 0;
+        text-align: center;
+        width: 100%;
+        height: 0;
+        z-index: 1;
+        visibility: hidden;
+        overflow-y: hidden;
+        transition: 1s;
+    }
+    .cabecalho-de-cima ul a {
+        padding: 1rem 0;
+        margin-inline: 1rem;
+        border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.16);
+        border-radius: 0;
+    }
+    .label-menu {
+        display: flex;
+    }
+    .checkbox:checked ~ ul {
+        background-color: lightgray;
+        height: 100%;
+        visibility: visible;
+        overflow-y: auto;
+    }
+    .logo {
+        display: none;
+    }
+    .cabecalho-de-baixo .search-bar{
+        display: none;
+        background-color: #eba30a;
+    }
+    .lets-be-social{
+        display: none;
+    }
+    @media (max-width: 560px) {
+        .card img{
+            height:130px ;
+        }
+        .card{
+            width: 130px;
+        }
+    }
+    @media (max-width: 560px) {
+        .card img{
+            height:400px ;
+        }
+        .card{
+            width: 90vw;
+        }
+    }
+
+}
+
